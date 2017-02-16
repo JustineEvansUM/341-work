@@ -35,6 +35,11 @@ I am new to Markdown, so I'd like to continue learning its tags. Also, I'm reall
 Here are some new codes I've learned:
 - Wrapping words in 2 asterisks will **bold** them.
 - Wrapping words in 1 asterisk will *italisize* them.
-  - Using brackets and parantheticals to create [working links](/341-work).
+- Brackets and parantheticals are used to create [working links](https://github.com/JustineEvansUM).
+- I can also create links without text by using these brackets [https://github.com/JustineEvansUM]
+- Code is identified using the backtic `Preview Code`
+- I can also embed an image!
+![Image of my editor](Week-02-img.png).
 
-## 5.
+## 5. Issues?
+Embarrisingly enough, I had way more help than I gave for this first assignment. But I am not discouraged!
