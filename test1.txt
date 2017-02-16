@@ -15,4 +15,4 @@ Cool!!
 
 I tried opening this file from GitHub Desktop. I am now going to see if it worked.
 
-I am testing the Sync feature in the GitHub Desktop.
+I am testing the Sync feature in the GitHub Desktop. It is partially successful?
