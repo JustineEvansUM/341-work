@@ -39,7 +39,7 @@ Here are some new codes I've learned:
 - I can also create links without text by using these brackets [https://github.com/JustineEvansUM]
 - Code is identified using the backtic `Preview Code`
 - I can also embed an image!
-![Image of my editor](Week-02-img.png).
+![Image of my editor](Week-02-img.png)
 
 ## 5. Issues?
 Embarrisingly enough, I had way more help than I gave for this first assignment. But I am not discouraged!!
