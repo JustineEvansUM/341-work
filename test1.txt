@@ -2,7 +2,7 @@ Name: Justine Evans
 Date: February 16, 2017
 
 This is my first text document for MART 340 - Web Development. Wow!
-That has now been altered.
+That has now been altered. x2
 
 
 I added this file in my text editor!!!!
@@ -11,4 +11,6 @@ Added a new line.
 And another.
 
 
-Cool!
+Cool!!
+
+I tried opening this file from GitHub Desktop. I am now going to see if it worked.
