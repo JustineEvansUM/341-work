@@ -35,6 +35,6 @@ I am new to Markdown, so I'd like to continue learning its tags. Also, I'm reall
 Here are some new codes I've learned:
 - Wrapping words in 2 asterisks will **bold** them.
 - Wrapping words in 1 asterisk will *italisize* them.
-  - Using brackets and parantheticals to create [working links](/341work).
+  - Using brackets and parantheticals to create [working links](/341-work).
 
 ## 5.
