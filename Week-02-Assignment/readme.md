@@ -42,4 +42,4 @@ Here are some new codes I've learned:
 ![Image of my editor](Week-02-img.png).
 
 ## 5. Issues?
-Embarrisingly enough, I had way more help than I gave for this first assignment. But I am not discouraged!
+Embarrisingly enough, I had way more help than I gave for this first assignment. But I am not discouraged!!
