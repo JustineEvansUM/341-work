@@ -13,3 +13,11 @@ Date: February 20, 2017
 ## 5. Issues?
 
 ## 6. Going Forward...
+
+- List item
+- List item
+
+new paragraph
+
+1. List item
+2.
