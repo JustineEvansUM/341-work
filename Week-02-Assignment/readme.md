@@ -1,8 +1,11 @@
 Name: Justine Evans, Section 51
-Date: February 16, 2017
 
-# The First MART341 Assignment
-This was the first assignment for MART 341 students, looking at Git, GitHub, GUI applications, Bash, etc.
+Date: February 07, 2017
+
+Due: February 13, 2017
+
+# The Second MART341 Assignment
+This was the first readme.md assignment for MART 341 students, looking at Git, GitHub, GUI applications, Bash, etc.
 
 ## 1. Summarize the work of this homework cycle:
 
