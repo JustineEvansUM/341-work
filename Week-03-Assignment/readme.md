@@ -1,10 +1,12 @@
 Name: Justine Evans, Section 51
 
-Date: February 20, 2017
+Date: February 14, 2017
+
+Due: February 20, 2017
 
 # My Second Homework Report
 
-## 1. Work Summary:
+## 1. Work Summary
 
 ## 3. Trials & Triumphs
 
@@ -13,11 +15,3 @@ Date: February 20, 2017
 ## 5. Issues?
 
 ## 6. Going Forward...
-
-- List item
-- List item
-
-new paragraph
-
-1. List item
-2.
