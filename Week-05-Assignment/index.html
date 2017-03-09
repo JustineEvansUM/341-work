@@ -11,13 +11,14 @@
       The Web-Dev Questionnaire
   </h1>
 
-  <form class="WebDev_Questionaire" action="#" method="get">
+  <form class="WebDev_Questionaire" action="Scripts/action.php" method="get">
 
     <fieldset>
       <img src="Images/MART_Logo.png" alt="MART341 and 342 pixelized logo" title="MART Logo" width="100" height="100" align="Right">
         <label for="name">What is your first name?</label>
-        <input type="text" name="name" placeholder="Name" autofocus required>
-      &nbsp;
+        <input type="text"
+         name="name" placeholder="Name" autofocus required>
+      <br />
         <label for="age">Date of birth?</label>
         <input type="date" name="DOB" placeholder="MM/DD/YYYY" required>
       <p><i>Welcome to the MART 341 Web-Dev Questionaire!</i> Please take a moment to fill out the following form regarding your comfort level with web development and design.
@@ -25,7 +26,7 @@
 
     <br>
 
-    <table style="width:100%">
+    <table style="width:100%;">
       <tr valign="top">
         <td style="width:33%;">
           <fieldset style="background-color:#7ED7E3;">
@@ -38,6 +39,8 @@
             <input type="radio" name="browser" value="pizza" checked> Chrome<sup><a href="#footnotes1">1</a></sup><br />
             <input type="radio" name="browser" value="grass"> Internet Explorer<br />
             <input type="radio" name="browser" value="uni"> Safari<br />
+            <input type="radio" name="browser" value="uni"> Opera<br />
+            <input type="radio" name="browser" value="uni"> Microsoft Edge<br />
             <input type="radio" name="browser" value="uni"> Other<br />
           </fieldset>
         </td>
@@ -46,12 +49,14 @@
             <center>
               <img src="Images/languages.png" alt="Image of a code sample." title="Languages Icon" style="width:30%; border:3px solid white; border-radius:360px;">
             </center><br />
-              <label for="languages">What web languages do you speak?</label>
+              <label for="languages">What  languages do you speak?</label>
               <p><i>Chose one or more:</i></p>
               <input type="checkbox" name="languages" value="CSS"> CSS<br />
               <input type="checkbox" name="languages" value="HTML"> HTML<br />
               <input type="checkbox" name="languages" value="Javascript"> Javascript<br />
               <input type="checkbox" name="languages" value="PHP"> PHP<br />
+              <input type="checkbox" name="languages" value="Ruby"> Ruby<br />
+              <input type="checkbox" name="languages" value="Python"> Python<br />
               <input type="checkbox" name="languages" value="Other"> Other<br />
           </fieldset>
         </td>
@@ -61,19 +66,24 @@
               <img src="Images/experience_level.png" alt="Image of a web tools" title="Experience Level Icon" style="width:30%; border:3px solid white; border-radius:360px;">
             </center><br />
             <p>Please introduce yourself!</p>
-            <p>"Hi! I am a
+            <p>"Hi! I'm a
               <select name="experience_level">
             	   <option value="00">guppy</option>
             	   <option value="01">beginner</option>
             	   <option value="02" selected>novice</option>
             	   <option value="03">journeyman</option>
             	   <option value="04">expert</option>
-            	   <option value="05">master wizard</option>
+            	   <option value="05">wizard</option>
                  </select>
-            web designer or developer. In 2016, I spent
+            web designer or developer. Last year, I spent
               <input type="number" name="experince_time"
-              id="experince_time_input" placeholder="##" min="0" max="12" maxlenght="2"/>
-            months studying or working in this field.
+              id="experince_time_input" placeholder="##" min="0" max="12" />
+            months studying or working in this field."</p>
+            <form action="#" method="post">
+              <p>Please upload a code snippit!</p>
+              <input type="file" name="experience_fileshare" /><br />
+              <input type="submit" value="Upload" />
+            </form>
         </td>
       </tr>
     </table>
