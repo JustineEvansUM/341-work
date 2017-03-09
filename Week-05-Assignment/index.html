@@ -7,9 +7,75 @@
 </head>
 
 <body>
+  <h1 style="text-align:center; color: #4668B0; font-family:Lucida Console, monospace;">
+      The Web-Dev Questionnaire
+  </h1>
 
+  <form class="WebDev_Questionaire" action="#" method="get">
+
+    <fieldset>
+      <img src="Images/MART_Logo.png" alt="Buffalo Icon" title="Buffalo Icon" width="75" height="75" align="Right">
+        <label for="name">What is your first name?</label>
+        <input type="text" name="name" placeholder="Name" autofocus required>
+      &nbsp;
+        <label for="age">Date of birth?</label>
+        <input type="date" name="DOB" placeholder="MM/DD/YYYY" required>
+      <p><i>Welcome to the MART 341 Web-Dev Questionaire!</i> Please take a moment to fill out the following form regarding your comfort level with web development and design.
+    </fieldset>
+
+    <br>
+
+    <table style="width:100%">
+      <tr valign="top">
+        <td style="width:33%;">
+          <fieldset style="background-color:#7ED7E3;">
+            <label for="browser">What is your preferred browser?</label>
+            <p><i>Choose one:</i></p>
+            <input type="radio" name="browser" value="pasta"> Firefox<br />
+            <input type="radio" name="browser" value="pizza" checked> Chrome<sup><a href="#footnotes1">1</a></sup><br />
+            <input type="radio" name="browser" value="grass"> Internet Explorer<br />
+            <input type="radio" name="browser" value="uni"> Safari<br />
+            <input type="radio" name="browser" value="uni"> Other<br />
+          </fieldset>
+        </td>
+        <td style="width:33%">
+          <fieldset style="background-color:#F5ED6C;">
+              <label for="languages">What web languages do you speak?</label>
+              <p><i>Chose one or more:</i></p>
+              <input type="checkbox" name="languages" value="CSS"> CSS<br />
+              <input type="checkbox" name="languages" value="HTML"> HTML<br />
+              <input type="checkbox" name="languages" value="Javascript"> Javascript<br />
+              <input type="checkbox" name="languages" value="PHP"> PHP<br />
+              <input type="checkbox" name="languages" value="Other"> Other<br />
+          </fieldset>
+        </td>
+        <td style="width:33%">
+          <fieldset style="background-color:#7ED7E3;">
+            <p>Please introduce yourself!</p>
+            <p>"Hi! I am a
+              <select name="experience_level">
+            	   <option value="00">guppy</option>
+            	   <option value="01">beginner</option>
+            	   <option value="02" selected>novice</option>
+            	   <option value="03">journeyman</option>
+            	   <option value="04">expert</option>
+            	   <option value="05">master wizard</option>
+                 </select>
+            web designer or developer. In 2016, I spent
+              <input type="number" name="experince_time"
+              id="experince_time_input" placeholder="##" min="0" max="12" />
+            months studying or working in this field.
+        </td>
+      </tr>
+    </table>
+
+  </form>
+
+<hr />
 <footer>
-<p style="font-size:small">Icon made by <a href="http://www.flaticon.com/authors/vectors-market">Vectors Market</a> from <a href="www.flaticon.com">www.flaticon.com</a></p>
+<p style="font-size:small"><a id="footnotes1">1.</a>The DAP lists Google Chrome as the <a href="http://www.zdnet.com/article/chrome-is-the-most-popular-web-browser-of-all/">most popular browser</a> of 2017.</p>
+<p style="font-size:small">Icons made by <a href="http://www.flaticon.com/authors/vectors-market">Vectors Market</a> from <a href="http://www.flaticon.com">www.flaticon.com</a></p>
 </footer>
 </body>
+
 </html>
